@@ -72,7 +72,7 @@ export default {
 						method: 'POST',
 						success: res => {
 							uni.hideLoading();
-							console.log('校验权限,判断跳转', res);
+							console.log('校验权限,判断跳转 ', res);
 							if (res.data && Number(res.data.status) === 1) {
 								uni.navigateTo({
 									url: '/pages/my/business/business'
