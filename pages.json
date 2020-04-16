@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#f51c21",
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/storeList/storeList",
+			"style": {
+				"navigationBarTitleText": "商家",
+				"navigationBarBackgroundColor":"#f51c21",
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarTitleText": "优觅会员",
+				"navigationBarBackgroundColor":"#f51c21",
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#f51c21",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	    ,{
+            "path" : "pages/my/addStore",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/wxLogin",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/myCounp",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/business/business",
+            "style" : {
+				"navigationBarTitleText": "商铺管理",
+				"navigationBarBackgroundColor":"#f51c21",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/business/businessCounp",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/business/businessCounpSet",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/business/businessInfo",
+            "style" : {
+				"navigationBarTitleText": "店铺信息"
+			}
+        }
+        ,{
+            "path" : "pages/my/business/goods/goods",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/business/goods/goodsInfo",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "优觅",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ic_home2.png",
+				"selectedIconPath": "static/ic_home1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/storeList/storeList",
+				"iconPath": "static/ic_sjlm1.png",
+				"selectedIconPath": "static/ic_sjlm.png",
+				"text": "商家"
+			},
+			{
+				"pagePath": "pages/vip/vip",
+				"iconPath": "static/ic_ymhy1.png",
+				"selectedIconPath": "static/ic_ymhy.png",
+				"text": "优觅会员"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/ic_my1.png",
+				"selectedIconPath": "static/ic_my.png",
+				"text": "我的"
+			}
+		],
+		"color": "#BDBDBD",
+		"selectedColor": "#383D43"
+	}
+}
